@@ -19,7 +19,7 @@
 .pattern-graph {
     display:flex;
     overflow: hidden;
-    background: url(/img/bg_cell.png) repeat;
+    background: url(./img/bg_cell.png) repeat;
     width: fit-content;
 }
 
