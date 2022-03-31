@@ -164,6 +164,6 @@ init();
 
 // 데이터 갱신
 setInterval(() => {
-  patternTab();
+//   patternTab();
 }, speed );
 
