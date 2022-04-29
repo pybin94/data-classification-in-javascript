@@ -30,8 +30,8 @@ const analysis = async (gameType, gameResult) => {
     result[index][gameType] == gameResult ? left++ : right++;
   })
 
-  let perRight = (right / 64 * 100).toFixed(2)
   let perLeft = (left / 64 * 100).toFixed(2)
+  let perRight = (right / 64 * 100).toFixed(2)
   return [left, right, perRight, perLeft];
 }
 
